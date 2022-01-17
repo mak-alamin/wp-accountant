@@ -1,0 +1,21 @@
+{
+    "name": "mak/expense-manager",
+    "description": "A lightweight WordPress plugin for accounting your personal/business income and expenses easily.",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Mak Alamin",
+            "email": "makalamin012@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ExpenseManager\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
